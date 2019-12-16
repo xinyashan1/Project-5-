@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+body {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 2px 2px 5px #000;
+    
+}
+#videobackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   
+    
+}
+#videobackground video {
+    width: 150%;
+
+ 
+}
+main {
+    width: 85%;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    top: 0;
+    
+}
+header {
+    height: 8em;
+    background-color: rgba(189, 183, 107, 0.30);
+    
+    
+}
+nav {
+    height: 4em; 
+    padding: 1em; 
+    background-color: rgb(66, 60, 61);  
+    color: rgb(75, 71, 72);  
+} 
+ 
+.navBar { 
+    color: lightblue; 
+    background-color: rgb(143, 143, 160); 
+}
+section {
+    min-height: 20em; 
+    background-color: rgba(189, 183, 107, 0.30);
+} 
+
+
+footer {
+    height: 4em;
+    background-color: rgba(13, 1, 106, 0.4);
+} 
+
+
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table, tr, td {
+    border: 1px solid #ff0;
+    text-align: center;
+    padding: .5em;   
+}
+table .odd {
+    background-color: aqua;
+}
+table .even{
+    background-color: #8000ff;
+}
